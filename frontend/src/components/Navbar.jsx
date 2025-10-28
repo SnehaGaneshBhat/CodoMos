@@ -148,7 +148,6 @@ export default function Navbar() {
         <Spacer />
         <HStack spacing={3}>
           <NotificationBell />
-          <Button size="sm" variant="outline" onClick={onLogout}>Logout</Button>
         </HStack>
         <Button 
           size="md" 
